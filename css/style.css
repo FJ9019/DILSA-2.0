@@ -633,7 +633,7 @@
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  width: 100%;
+  width: auto;
   min-height: 100vh;
   position: relative;
   padding: 0;
@@ -641,6 +641,8 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
 }
   
 .hero .info {
