@@ -788,4 +788,50 @@
 .hero .carousel-control-next:hover {
   opacity: 0.9;
 }
-  
+
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  padding: 20px 0;
+}
+
+.clients .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clients .client-logo img {
+  padding: 20px 40px;
+  max-width: 140%;
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100);
+}
+
+.clients .client-logo img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .clients .client-logo img {
+    padding: 20px;
+    max-width: 80%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Home Text Section
+--------------------------------------------------------------*/
+#home-text {
+  height: 470px;
+  font-size: 1.4em;
+  padding-bottom: 50px;
+  padding-left: 400px;
+  padding-right: 300px;
+  background-repeat: round;
+}
